@@ -2,11 +2,11 @@
 
 A collections of codewars challenges done in javascript.
 
-| Difficulty | Problem             |
-| ---------- | ------------------- |
-| 6KYE       | Sum of Digital Root |
+| Difficulty | Problem                                 |
+| ---------- | --------------------------------------- |
+| 6KYE       | [Sum of Digital Root](./digitalRoot.js) |
 
-## [Sum of Digital root](https://www.codewars.com/kata/541c8630095125aba6000c00/javascript)
+## [Sum of Digital root 6kyu](https://www.codewars.com/kata/541c8630095125aba6000c00/javascript)
 
 Description:
 Digital root is the recursive sum of all the digits in a number.
