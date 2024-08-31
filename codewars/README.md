@@ -2,9 +2,9 @@
 
 A collections of codewars challenges done in javascript.
 
-| Difficulty | Problem                                 |
-| ---------- | --------------------------------------- |
-| 6KYE       | [Sum of Digital Root](./digitalRoot.js) |
+| Problem                                 | Difficulty |
+| --------------------------------------- | ---------- |
+| [Sum of Digital Root](./digitalRoot.js) | 6Kyu       |
 
 ## [Sum of Digital Root - 6kyu](https://www.codewars.com/kata/541c8630095125aba6000c00/javascript)
 
