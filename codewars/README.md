@@ -14,7 +14,7 @@ Digital root is the recursive sum of all the digits in a number.
 
 Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
 
-## [Array.diff](https://www.codewars.com/kata/523f5d21c841566fde000009/javascript)
+## [Array.diff - 6kyu](https://www.codewars.com/kata/523f5d21c841566fde000009/javascript)
 
 Description:
 Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
