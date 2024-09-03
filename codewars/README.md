@@ -1,6 +1,6 @@
 # CODEWARS JS
 
-A collections of codewars challenges done in javascript.
+A collection of codewars challenges done in javascript.
 
 | Problem                                 | Difficulty |
 | --------------------------------------- | ---------- |
