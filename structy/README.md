@@ -13,6 +13,7 @@ All problems will be solved at the top of each named file, and the bottom of the
 | Arrays and Strings | [anagrams](./arrays-and-strings/anagrams.js)                |
 |                    | [mostFrequentChar](./arrays-and-strings/mostFrquentChar.js) |
 |                    | [pairSum](./arrays-and-strings/pairSum.js)                  |
+|                    | [pairProduct](./arrays-and-strings//pairProduct.js)         |
 
 #### TODOS
 
