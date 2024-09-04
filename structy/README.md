@@ -8,10 +8,11 @@ All problems will be solved at the top of each named file, and the bottom of the
 
 ## Table of Contents
 
-| Module             | Problems                                                           |
-| ------------------ | ------------------------------------------------------------------ |
-| Arrays and Strings | [anagrams](/structy/arrays-and-strings/anagrams.js)                |
-|                    | [mostFrequentChar](/structy/arrays-and-strings/mostFrquentChar.js) |
+| Module             | Problems                                                    |
+| ------------------ | ----------------------------------------------------------- |
+| Arrays and Strings | [anagrams](./arrays-and-strings/anagrams.js)                |
+|                    | [mostFrequentChar](./arrays-and-strings/mostFrquentChar.js) |
+|                    | [pairSum](./arrays-and-strings/pairSum.js)                  |
 
 #### TODOS
 
