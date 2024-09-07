@@ -14,7 +14,8 @@ All problems will be solved at the top of each named file, and the bottom of the
 |                    | [mostFrequentChar](./arrays-and-strings/mostFrquentChar.js) |
 |                    | [pairSum](./arrays-and-strings/pairSum.js)                  |
 |                    | [pairProduct](./arrays-and-strings//pairProduct.js)         |
-|                    | [uncompress](./arrays-and-strings//uncompress.js)           |
+|                    | [uncompress](./arrays-and-strings/uncompress.js)            |
+|                    | [compress](./arrays-and-strings/compress.js)                |
 
 #### TODOS
 
