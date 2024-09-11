@@ -46,3 +46,30 @@ console.log(compress('ssssbbz')) // 4s2bz
 // n = s.length
 // Time: O(n)
 // space: O(n)
+
+// WALKTHROUGH SOLUTION
+const betterCompress = (s) => {
+  let result = []
+  let i = 0
+  let j = 0
+
+  while (j <= s.length) {
+    if (s[i] === s[j]) {
+      j++
+    } else {
+      const num = j - i
+      if (num === 1) {
+        result.push(s[i])
+      } else {
+        result.push(num, s[i])
+      }
+      i = j
+    }
+  }
+
+  return result.join('')
+}
+
+// n = s.length
+// Time: O(n)
+// Space: O(n)
