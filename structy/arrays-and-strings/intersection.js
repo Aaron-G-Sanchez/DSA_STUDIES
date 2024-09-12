@@ -22,7 +22,7 @@ const intersection = (a, b) => {
     }
     // if no continue
   }
-  similar.sort()
+
   return similar
 }
 
@@ -38,3 +38,5 @@ console.log(intersection([2, 4, 6], [4, 2])) // [2,4]
 // m = longest.length
 // Time: O(n + m)
 // Space: O(n)
+
+// Walkthrough solution
