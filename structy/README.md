@@ -16,6 +16,9 @@ All problems will be solved at the top of each named file, and the bottom of the
 |                    | [pairProduct](./arrays-and-strings//pairProduct.js)         |
 |                    | [uncompress](./arrays-and-strings/uncompress.js)            |
 |                    | [compress](./arrays-and-strings/compress.js)                |
+|                    | [intersection](./arrays-and-strings/intersection.js)        |
+|                    | [five sort](./arrays-and-strings/five-sort.js)              |
+| Beginner Recursion |                                                             |
 
 #### TODOS
 
