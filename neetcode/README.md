@@ -1,4 +1,4 @@
-A repo to track progres through Needcode roadmap
+A repo to track progress through Needcode roadmap
 
 | Module             | Problems                                                                            | Date Completed |
 | ------------------ | ----------------------------------------------------------------------------------- | -------------- |
