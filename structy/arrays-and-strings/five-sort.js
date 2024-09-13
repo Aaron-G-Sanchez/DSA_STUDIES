@@ -44,3 +44,30 @@ const fiveSort = (nums) => {
 // m = loops through target
 // Time: O(n + m)
 // Space: O(n)
+
+// Walkthrough solution:
+// Two pointer solution = Optimal
+const betterFiveSort = (nums) => {
+  let i = 0
+  let j = nums.length - 1
+
+  while (i <= j) {
+    if (nums[j] === 5) {
+      j--
+    } else if (nums[i] === 5) {
+      ;[nums[i], nums[j]] = [nums[j], nums[i]]
+      i++
+    } else {
+      i++
+    }
+  }
+
+  return nums
+}
+
+console.log(betterFiveSort([12, 5, 1, 5, 12, 7]))
+console.log(betterFiveSort([5, 2, 5, 6, 5, 1, 10, 2, 5, 5]))
+console.log(betterFiveSort([5, 5, 6, 5, 5, 5, 5]))
+
+// Time: O(n)
+// Space: O(1)
