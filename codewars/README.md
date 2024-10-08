@@ -2,10 +2,14 @@
 
 A collection of codewars challenges done in javascript.
 
-| Problem                                 | Difficulty |
-| --------------------------------------- | ---------- |
-| [Sum of Digital Root](./digitalRoot.js) | 6Kyu       |
-| [Array.diff](./arrayDif.js)             | 6kyu       |
+| Problem                                           | Difficulty   |
+| ------------------------------------------------- | ------------ |
+| [Sum of Digital Root](./digitalRoot.js)           | 6Kyu         |
+| [Array.diff](./arrayDif.js)                       | 6kyu         |
+| ------------------------------------------------  | ------------ |
+| Interview practice                                |              |
+| ------------------------------------------------- | ------------ |
+| [Longest Common Prefix](./longestCommonPrefix.js) |              |
 
 ## [Sum of Digital Root - 6kyu](https://www.codewars.com/kata/541c8630095125aba6000c00/javascript)
 
@@ -20,6 +24,11 @@ Description:
 Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
 
 It should remove all values from list a, which are present in list b keeping their order.
+
+## Longest Common Prefix
+
+Description:
+Write a function that returns the longest common prefix found in an array of strings.
 
 ## TODOs
 
