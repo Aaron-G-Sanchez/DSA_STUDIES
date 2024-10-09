@@ -2,10 +2,11 @@
 
 A collection of codewars challenges done in javascript.
 
-| Problem                                 | Difficulty |
-| --------------------------------------- | ---------- |
-| [Sum of Digital Root](./digitalRoot.js) | 6Kyu       |
-| [Array.diff](./arrayDif.js)             | 6kyu       |
+| Problem                                      | Difficulty |
+| -------------------------------------------- | ---------- |
+| [Sum of Digital Root](./digitalRoot.js)      | 6Kyu       |
+| [Array.diff](./arrayDif.js)                  | 6kyu       |
+| [Longest repetition](./longestRepetition.js) | 6kyu       |
 
 | Interview practice                                |     |
 | ------------------------------------------------- | --- |
@@ -24,6 +25,8 @@ Description:
 Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
 
 It should remove all values from list a, which are present in list b keeping their order.
+
+## [Longest Repetition](https://www.codewars.com/kata/586d6cefbcc21eed7a001155)
 
 ## Longest Common Prefix
 
