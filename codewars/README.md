@@ -2,14 +2,14 @@
 
 A collection of codewars challenges done in javascript.
 
-| Problem                                           | Difficulty   |
-| ------------------------------------------------- | ------------ |
-| [Sum of Digital Root](./digitalRoot.js)           | 6Kyu         |
-| [Array.diff](./arrayDif.js)                       | 6kyu         |
-| ------------------------------------------------  | ------------ |
-| Interview practice                                |              |
-| ------------------------------------------------- | ------------ |
-| [Longest Common Prefix](./longestCommonPrefix.js) |              |
+| Problem                                 | Difficulty |
+| --------------------------------------- | ---------- |
+| [Sum of Digital Root](./digitalRoot.js) | 6Kyu       |
+| [Array.diff](./arrayDif.js)             | 6kyu       |
+
+| Interview practice                                |     |
+| ------------------------------------------------- | --- |
+| [Longest Common Prefix](./longestCommonPrefix.js) |     |
 
 ## [Sum of Digital Root - 6kyu](https://www.codewars.com/kata/541c8630095125aba6000c00/javascript)
 
