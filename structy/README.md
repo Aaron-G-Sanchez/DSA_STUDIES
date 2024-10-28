@@ -19,6 +19,8 @@ All problems will be solved at the top of each named file, and the bottom of the
 |                    | [intersection](./arrays-and-strings/intersection.js)        |
 |                    | [five sort](./arrays-and-strings/five-sort.js)              |
 | Beginner Recursion |                                                             |
+|                    | [intro](./recursion/)                                       |
+|                    | [sumNumbers](./recursion/sumNumbers.js)                     |
 
 #### TODOS
 
