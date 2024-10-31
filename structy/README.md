@@ -21,6 +21,7 @@ All problems will be solved at the top of each named file, and the bottom of the
 | Beginner Recursion |                                                             |
 |                    | [intro](./recursion/)                                       |
 |                    | [sumNumbers](./recursion/sumNumbers.js)                     |
+| Linked Lists       | []                                                          |
 
 #### TODOS
 
