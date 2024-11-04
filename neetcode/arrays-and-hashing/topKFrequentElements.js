@@ -16,7 +16,7 @@ const topKFrequent = (nums, k) => {
   }
 
   // Create an array equal to the length of nums
-  let bucket = new Array(nums.length).fill([])
+  let bucket = new Array(nums.length + 1).fill([])
   // loop through count object
   for (let key in count) {
     // push each key/num into the index that matches their frequency
