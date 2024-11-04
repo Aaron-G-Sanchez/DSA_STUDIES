@@ -3,7 +3,6 @@
 // Given an integer array nums and an integer k,
 // return the k most frequent elements. You may return the answer in any order.
 
-// My brute force solution
 const topKFrequent = (nums, k) => {
   let res = []
   // get count of each numbers occurrence
@@ -16,24 +15,26 @@ const topKFrequent = (nums, k) => {
     count[num]++
   }
 
-  // find the k most occurring unique num
-  // eg. if k = 1, find the single most occurring number.
-  // loop though count object k times
-
-  for (let i = 0; i < k; i++) {
-    let max = Object.keys(count)[0]
-
-    for (let key in count) {
-      if (count[key] > count[max]) {
-        max = key
-      }
-    }
-    res.push(parseInt(max))
-    count[max] = 0
+  // Create an array equal to the length of nums
+  let bucket = new Array(nums.length).fill([])
+  // loop through count object
+  for (let key in count) {
+    // push each key/num into the index that matches their frequency
+    // of the bucket array
+    let freq = count[key]
+    bucket[freq] = [...bucket[freq], parseInt(key)]
   }
 
-  // find the largest value and push to array
-  // remove the value just pushed
+  // loop backwards through array and pick K elements
+  for (let i = bucket.length - 1; i >= 0; i--) {
+    if (bucket[i].length >= 1 && k > 0) {
+      for (let num of bucket[i]) {
+        res.push(num)
+        k--
+      }
+    }
+  }
+
   return res
 }
 
