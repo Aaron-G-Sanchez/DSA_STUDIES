@@ -20,9 +20,9 @@ const reverseWords = (s) => {
     }
   }
 
-  return res
+  return res.join(' ')
 }
 
 // console.log(reverseWords('the sky is blue')) // -> "blue is sky the"
-console.log(reverseWords('   hello world    ')) // -> "word hello"
-// console.log(reverseWords('a good   example')) // -> "example good a"
+// console.log(reverseWords('   hello world    ')) // -> "word hello"
+console.log(reverseWords('a good   example')) // -> "example good a"
