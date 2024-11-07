@@ -10,13 +10,13 @@
 // The returned string should only have a single space separating the words. Do not include any extra spaces.
 
 const reverseWords = (s) => {
-  let trimmed = s.split(' ')
+  let words = s.split(' ')
 
   let res = []
 
-  for (let i = trimmed.length - 1; i >= 0; i--) {
-    if (trimmed[i] != '') {
-      res.push(trimmed[i])
+  for (let i = words.length - 1; i >= 0; i--) {
+    if (words[i] != '') {
+      res.push(words[i])
     }
   }
 
