@@ -31,7 +31,13 @@ It should remove all values from list a, which are present in list b keeping the
 ## [Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/javascript)
 
 Description:
-The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
+The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string.
+Ignore capitalization when determining if a character is a duplicate.
+
+## [Take a Ten Minute Walk](https://www.codewars.com/kata/54da539698b8a2ad76000228/javascript)
+
+Description:
+You live in the city of Cartesia where all roads are laid out in a perfect grid. You arrived ten minutes too early to an appointment, so you decided to take the opportunity to go for a short walk. The city provides its citizens with a Walk Generating App on their phones -- everytime you press the button it sends you an array of one-letter strings representing directions to walk (eg. ['n', 's', 'w', 'e']). You always walk only a single block for each letter (direction) and you know it takes you one minute to traverse one city block, so create a function that will return true if the walk the app gives you will take you exactly ten minutes (you don't want to be early or late!) and will, of course, return you to your starting point. Return false otherwise.
 
 ## Longest Common Prefix
 
