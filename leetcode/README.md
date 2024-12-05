@@ -7,3 +7,4 @@
 | [151. Reversing words in a string](https://leetcode.com/problems/reverse-words-in-a-string/description/)                             | 11/6/24        |
 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                                        | 11/25/24       |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                                                | 12/2/24        |
+| [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)            | 12/4/24        |
