@@ -9,4 +9,5 @@
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)                                                | 12/2/24        |
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)            | 12/4/24        |
 | [27. Remove Element](https://leetcode.com/problems/remove-element/description/)                                                      | 12/20/24       |
-| [2729. Check if the Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)                        | 12/20/24       |
+| [2729. Check if the Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)                        | 12/30/24       |
+| [66. Plus One](https://leetcode.com/problems/plus-one/description/)                                                                  | 12/31/24       |
