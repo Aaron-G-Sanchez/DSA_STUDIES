@@ -1,2 +1,5 @@
 # notes files
 *.txt
+
+# Premium Structy problems
+**/premium
