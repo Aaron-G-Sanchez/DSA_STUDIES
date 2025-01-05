@@ -23,6 +23,8 @@ All problems will be solved at the top of each named file, and the bottom of the
 |                    | [sumNumbers](./recursion/sumNumbers.js)                     |
 | Linked Lists       | [demo](./linked-lists/demo.js)                              |
 |                    | [linkedListValues](./linked-lists/linkedListValues.js)      |
+|                    | [sumList](./linked-lists/sumList.js)                        |
+|                    | [linkedListFind](./linked-lists/linkedListFind.js)          |
 
 #### TODOS
 
