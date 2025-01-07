@@ -25,6 +25,8 @@ All problems will be solved at the top of each named file, and the bottom of the
 |                    | [linkedListValues](./linked-lists/linkedListValues.js)      |
 |                    | [sumList](./linked-lists/sumList.js)                        |
 |                    | [linkedListFind](./linked-lists/linkedListFind.js)          |
+|                    | [getNodeValue](./linked-lists/getNodeValue.js)              |
+|                    | [reverseList](./linked-lists/reverseList.js)                |
 
 #### TODOS
 
