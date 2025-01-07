@@ -45,6 +45,7 @@ d.next = e
 
 // console.log('solution:', reverseList(a)) // e
 
+// Recursive solution
 const reverseList = (head) => {
   return reverseHelper(head, null)
 }
