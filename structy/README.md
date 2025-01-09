@@ -27,6 +27,7 @@ All problems will be solved at the top of each named file, and the bottom of the
 |                    | [linkedListFind](./linked-lists/linkedListFind.js)          |
 |                    | [getNodeValue](./linked-lists/getNodeValue.js)              |
 |                    | [reverseList](./linked-lists/reverseList.js)                |
+|                    | [zipperLists](./linked-lists/zipperLists.js)                |
 
 #### TODOS
 
