@@ -11,3 +11,4 @@
 | [27. Remove Element](https://leetcode.com/problems/remove-element/description/)                                                      | 12/20/24       |
 | [2729. Check if the Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)                        | 12/30/24       |
 | [66. Plus One](https://leetcode.com/problems/plus-one/description/)                                                                  | 12/31/24       |
+| [83. Remove Duplicates from Sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)              | 01/11/24       |
