@@ -6,21 +6,25 @@
 // You must write an algorithm with O(log n) runtime complexity.
 
 const search = (nums, target) => {
-  // Set pointer to start and end
+  // Set pointer to start and end.
   let start = 0
   let end = nums.length - 1
-  // Calculate the mid point in the array
 
-  // While there is more than 1 number in the array
+  // While start is less than or equal to end.
   while (start <= end) {
+    // Calculate the mid point in the array
     let mid = Math.floor((start + end) / 2)
-    // check if the target is greater than or less than OR equal to the mid point
 
+    // evaluate the target to the mid point.
     if (nums[mid] === target) {
       return mid
     } else if (nums[mid] < target) {
+      // Move the start pointer to the value after the mid point
+      // because we know that target is greater than the mid point.
       start = mid + 1
     } else {
+      // move the end pointer to the value before the mid point because
+      // we know the target is less than the mid point.
       end = mid - 1
     }
   }
