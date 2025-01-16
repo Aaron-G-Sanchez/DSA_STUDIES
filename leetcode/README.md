@@ -12,3 +12,4 @@
 | [2729. Check if the Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)                        | 12/30/24       |
 | [66. Plus One](https://leetcode.com/problems/plus-one/description/)                                                                  | 12/31/24       |
 | [83. Remove Duplicates from Sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)              | 01/11/24       |
+| [704. Binary Search](https://leetcode.com/problems/binary-search/description/)                                                       | 01/15/24       |
