@@ -39,6 +39,6 @@ const isPalindrome = (s) => {
 // console.log(isPalindrome('a')) // true
 console.log(isPalindrome('a.')) // true
 
-// n = s.lenght
+// n = s.length
 // Time = O(n) have to loop through entire string when checking for non alphanumeric characters
 // Space = O(n) create new array
