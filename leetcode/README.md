@@ -13,3 +13,4 @@
 | [66. Plus One](https://leetcode.com/problems/plus-one/description/)                                                                  | 12/31/24       |
 | [83. Remove Duplicates from Sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)              | 01/11/24       |
 | [704. Binary Search](https://leetcode.com/problems/binary-search/description/)                                                       | 01/15/24       |
+| [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                                                 | 01/16/24       |
