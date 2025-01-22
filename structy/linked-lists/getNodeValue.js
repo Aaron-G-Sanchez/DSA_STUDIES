@@ -43,24 +43,19 @@ c.next = d
 
 // Recursive solution.
 const getNodeValue = (head, index) => {
-  // Call helper function
-  return getNode(head, index, 0)
-}
-
-const getNode = (head, index, count) => {
   // base case
   // check if end of the list has been reached
   if (!head) return null
   // check if index equals the nodes encountered
-  if (index === count) return head.val
+  if (index === 0) return head.val
   // iterate to the next node by calling getNode on the node.next
-  return getNode(head.next, index, ++count)
+  return getNodeValue(head.next, (index -= 1))
 }
 
 // n = number of nodes
 // Time = O(n)
 // Space = O(n)
 
-// console.log(getNodeValue(a, 2)) // 'c'
+console.log(getNodeValue(a, 2)) // 'c'
 // console.log(getNodeValue(a, 6)) // null
-console.log(getNodeValue(a, 0)) // 'a'
+// console.log(getNodeValue(a, 0)) // 'a'
