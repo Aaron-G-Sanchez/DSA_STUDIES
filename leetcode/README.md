@@ -15,3 +15,4 @@
 | [704. Binary Search](https://leetcode.com/problems/binary-search/description/)                                                       | 01/15/24       |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                                                 | 01/16/24       |
 | [167. Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)               | 01/20/24       |
+| [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                               | 01/25/24       |
