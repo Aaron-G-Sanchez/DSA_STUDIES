@@ -16,3 +16,4 @@
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                                                 | 01/16/24       |
 | [167. Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)               | 01/20/24       |
 | [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                               | 01/25/24       |
+| [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                                      | 01/27/24       |
