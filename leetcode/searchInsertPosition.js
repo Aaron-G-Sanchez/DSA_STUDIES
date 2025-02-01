@@ -26,12 +26,8 @@ const searchInsert = (nums, target) => {
       end = mid - 1
     }
   }
-  // return the midpoint value
-  console.log(' mid:', nums[mid])
-  console.log(' start:', nums[start])
-  console.log(' end:', nums[end])
-  console.log('Target:', target)
 
+  // evaluate where the insert position should be
   if (mid === start) {
     return mid
   } else {
@@ -41,3 +37,7 @@ const searchInsert = (nums, target) => {
 
 const testArr = [1, 3, 5, 6]
 console.log(searchInsert(testArr, 0))
+
+// N = nums.length
+// Time = O(log n) // Using binary search
+// Space = O(1)

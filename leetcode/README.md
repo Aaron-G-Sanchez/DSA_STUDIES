@@ -11,9 +11,10 @@
 | [27. Remove Element](https://leetcode.com/problems/remove-element/description/)                                                      | 12/20/24       |
 | [2729. Check if the Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)                        | 12/30/24       |
 | [66. Plus One](https://leetcode.com/problems/plus-one/description/)                                                                  | 12/31/24       |
-| [83. Remove Duplicates from Sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)              | 01/11/24       |
-| [704. Binary Search](https://leetcode.com/problems/binary-search/description/)                                                       | 01/15/24       |
-| [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                                                 | 01/16/24       |
-| [167. Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)               | 01/20/24       |
-| [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                               | 01/25/24       |
-| [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                                      | 01/27/24       |
+| [83. Remove Duplicates from Sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)              | 01/11/25       |
+| [704. Binary Search](https://leetcode.com/problems/binary-search/description/)                                                       | 01/15/25       |
+| [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                                                 | 01/16/25       |
+| [167. Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)               | 01/20/25       |
+| [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                               | 01/25/25       |
+| [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                                      | 01/27/25       |
+| [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)                                      | 01/31/25       |
