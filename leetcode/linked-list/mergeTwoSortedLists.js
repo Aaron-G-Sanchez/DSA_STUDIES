@@ -49,6 +49,12 @@ const merge = (list1, list2) => {
   return dummy.next
 }
 
+// N = m + n (list1.length + list2.length)
+// Time: O(m+n)
+// Space: O(1)
+
+// TODO: Solve recursively
+
 const sortedList = merge(a, d)
 
 console.log(sortedList.printList()) // 1 -> 1 -> 2 -> 3 -> 4 => 4
