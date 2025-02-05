@@ -2,7 +2,7 @@
 
 | Problems                                                                                                                             | Date Completed |
 | ------------------------------------------------------------------------------------------------------------------------------------ | -------------- |
-| [605. Can Place Flower](https://leetcode.com/problems/can-place-flowers/description/)                                                | 9/15/24        |
+| [605. Can Place Flower](https://leetcode.com/problems/can-place-flowers/description/)                                                | 09/15/24       |
 | [345. Reverse Vowels](https://leetcode.com/problems/reverse-vowels-of-a-string/description/?envType=study-plan-v2&envId=leetcode-75) | 11/5/24        |
 | [151. Reversing words in a string](https://leetcode.com/problems/reverse-words-in-a-string/description/)                             | 11/6/24        |
 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                                        | 11/25/24       |
@@ -18,3 +18,4 @@
 | [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)                               | 01/25/25       |
 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                                      | 01/27/25       |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)                                      | 01/31/25       |
+| [2660. Determine Winner of Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/description/)          | 02/04/25       |
