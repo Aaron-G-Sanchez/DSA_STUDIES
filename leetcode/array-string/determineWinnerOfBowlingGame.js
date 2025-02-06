@@ -58,3 +58,7 @@ const getWinner = (player1, player2) => {
 }
 
 console.log(getWinner([5, 10, 3, 2], [6, 5, 7, 3]))
+
+// N = length of player1 || player2
+// Time = O(n) -> Must visit each score at least once
+// Space = O(1)
