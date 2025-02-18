@@ -13,6 +13,7 @@ const findFirstOccurrence = (haystack, needle) => {
     // when char of haystack === start of needle
     // check for equality
     if (haystack[i] === needle[needleIdx]) {
+      console.log('comp:', haystack[i], needle[needleIdx])
       if (!foundIdx) {
         // set a pointer to the char in haystack and move along needle and haystack to
         foundIdx = i
