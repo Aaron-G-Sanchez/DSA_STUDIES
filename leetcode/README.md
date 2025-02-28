@@ -19,4 +19,5 @@
 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                                      | 01/27/25       |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)                                      | 01/31/25       |
 | [2660. Determine Winner of Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/description/)          | 02/04/25       |
-| [88. Determine Winner of Bowling Game](https://leetcode.com/problems/merge-sorted-array/description/)                                | 02/17/25       |
+| [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                              | 02/17/25       |
+| [283. Remove Zeros](https://leetcode.com/problems/move-zeroes/description/)                                                          | 02/27/25       |
