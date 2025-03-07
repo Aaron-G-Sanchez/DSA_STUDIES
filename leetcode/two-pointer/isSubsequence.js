@@ -31,3 +31,7 @@ const isSubsequence = (s, t) => {
 //console.log(isSubsequence('abc', 'ahbgdc')) // true
 //console.log(isSubsequence('axc', 'ahbgdc')) // false
 console.log(isSubsequence('', '')) // true
+
+// n = t.length
+// Time = O(n)
+// Space = O(1)
