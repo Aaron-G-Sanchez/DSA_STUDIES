@@ -8,3 +8,4 @@ A repo to track progress through Needcode roadmap
 |                    | [groupAnagrams](https://leetcode.com/problems/group-anagrams/description/)                              | 11/2/24                      |
 |                    | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)           | 11/3/24 (refactored 11/4/24) |
 |                    | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | 11/4/24                      |
+| Stacks             | [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/description/)                       | 4/6/25                       |
