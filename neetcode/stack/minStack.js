@@ -56,5 +56,3 @@ minStack.getMin() // => -3
 minStack.pop()
 minStack.top() // => 0
 minStack.getMin() // => -2
-
-//console.log(minStack)

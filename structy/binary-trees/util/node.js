@@ -7,3 +7,5 @@ class Node {
     this.left = null
   }
 }
+
+module.exports = { Node }
