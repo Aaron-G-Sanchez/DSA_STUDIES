@@ -20,19 +20,39 @@ b.right = e
 c.right = f
 
 /** MY SOLUTION: Recursive */
-const treeSum = (root) => {
-  // Check if the root/node is empty
-  if (!root) return 0
-
-  // Store the subsequent calls of treeSum with the node children
-  const leftVal = treeSum(root.left)
-  const rightVal = treeSum(root.right)
-  // return root.val + subsequent call variables
-  return root.val + leftVal + rightVal
-}
+//const treeSum = (root) => {
+//  // Check if the root/node is empty
+//  if (!root) return 0
+//
+//  // Store the subsequent calls of treeSum with the node children
+//  const leftVal = treeSum(root.left)
+//  const rightVal = treeSum(root.right)
+//  // return root.val + subsequent call variables
+//  return root.val + leftVal + rightVal
+//}
 
 // n = number of nodes
 // Time = O(n^2) The extra recursive vist back up the tree?
 // Space = O(n) = The call stack
+
+/** MY SOLUTION: Iterative */
+const treeSum = (root) => {
+  // Create running sum variable and stack to track nodes to visit
+  let sum = 0
+  const stack = [root]
+
+  // Loop through stack while it has items
+  while (stack.length > 0) {
+    // Get the current node and add its value to the running sum
+    const current = stack.pop()
+    sum += current.val
+
+    // Check if the current node has children and add them to the stack
+    if (current.right) stack.push(current.right)
+    if (current.left) stack.push(current.left)
+  }
+  // return the running sum
+  return sum
+}
 
 console.log(treeSum(a)) // => 21
