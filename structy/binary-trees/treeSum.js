@@ -34,8 +34,8 @@ c.right = f
 //}
 
 // n = number of nodes
-// Time = O(n^2) The extra recursive vist back up the tree?
-// Space = O(n) = The call stack
+// Time = O(n) Visiting each node
+// Space = O(n) The call stack
 
 /** MY SOLUTION: Iterative */
 const treeSum = (root) => {
@@ -58,6 +58,10 @@ const treeSum = (root) => {
   // return the running sum
   return sum
 }
+
+// n = number of nodes
+// Time = O(n) must visit each node
+// Space = O(1) no new space used
 
 console.log(treeSum(a)) // => 21
 console.log(treeSum(empty)) // => 0
