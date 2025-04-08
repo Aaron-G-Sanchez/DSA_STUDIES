@@ -13,6 +13,8 @@ const d = new Node(4)
 const e = new Node(-2)
 const f = new Node(1)
 
+const empty = new Node(null)
+
 a.left = b
 a.right = c
 b.left = d
@@ -37,6 +39,8 @@ c.right = f
 
 /** MY SOLUTION: Iterative */
 const treeSum = (root) => {
+  // Check if root is empty
+  if (!root) return 0
   // Create running sum variable and stack to track nodes to visit
   let sum = 0
   const stack = [root]
@@ -56,3 +60,4 @@ const treeSum = (root) => {
 }
 
 console.log(treeSum(a)) // => 21
+console.log(treeSum(empty)) // => 0
