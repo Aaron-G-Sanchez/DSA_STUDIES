@@ -22,3 +22,5 @@
 | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)                                              | 02/17/25       |
 | [283. Remove Zeros](https://leetcode.com/problems/move-zeroes/description/)                                                          | 02/27/25       |
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description)                        | 03/05/25       |
+| [557. Reverse linked list](https://leetcode.com/problems/reverse-linked-list/description/)                                           | 04/08/25       |
+| [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)                                             | 04/09/25       |
