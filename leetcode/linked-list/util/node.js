@@ -6,11 +6,15 @@ class Node {
 
   /** Function to list all subsequent nodes. */
   printList() {
+    const valArray = []
+
     let current = this
     while (current) {
-      console.log(current.val)
+      valArray.push(current.val)
       current = current.next
     }
+
+    console.log(valArray)
   }
 }
 
