@@ -25,28 +25,59 @@ c.right = f
 //  / \      \
 // 4   -2     1
 
-const treeMinValue = (root) => {
-  // return the call of minValHelper called with root and current minVal(null
-  // initiailly)
-  return minValueHelper(root, null)
-}
-
-const minValueHelper = (node, minVal) => {
-  // Check if node is empty
-  // yes; return minVal
-  if (!node) return minVal
-  // Get the minVal by checking if minVal is null
-  const min = minVal ? Math.min(node.val, minVal) : node.val
-
-  // evaluate the returns of minValHelper to return the lowest value
-  const leftMin = minValueHelper(node.left, min)
-  const rightMin = minValueHelper(node.right, min)
-
-  return leftMin < rightMin ? leftMin : rightMin
-}
+// MY SOLUTION: Recursive
+//const treeMinValue = (root) => {
+//  // return the call of minValHelper called with root and current minVal(null
+//  // initiailly)
+//  return minValueHelper(root, null)
+//}
+//
+//const minValueHelper = (node, minVal) => {
+//  // Check if node is empty
+//  // yes; return minVal
+//  if (!node) return minVal
+//  // Get the minVal by checking if minVal is null
+//  const min = minVal ? Math.min(node.val, minVal) : node.val
+//
+//  // evaluate the returns of minValHelper to return the lowest value
+//  const leftMin = minValueHelper(node.left, min)
+//  const rightMin = minValueHelper(node.right, min)
+//
+//  return leftMin < rightMin ? leftMin : rightMin
+//}
 
 // n = number of nodes
 // Time = O(n) visit each node once
 // Space = O(n) use of the call stack
+
+// MY SOLUTION: Iterative
+const treeMinValue = (root) => {
+  // Initialize current min val (curMinVal)
+  let curMinVal = null
+
+  // Create queue to hold nodes to visit
+  const queue = [root]
+
+  // Loop through queue while it has nodes
+  while (queue.length > 0) {
+    // Shift the current node from the queue
+    const current = queue.shift()
+
+    // Evaluate if node.val is less than curMinVal
+    // yes; set curMinVal to node.val
+    curMinVal = curMinVal ? Math.min(current.val, curMinVal) : current.val
+
+    // Check if current node has left/right children
+    // yes; push to the queue
+    if (current.left) queue.push(current.left)
+    if (current.right) queue.push(current.right)
+  }
+  // return the current min val
+  return curMinVal
+}
+
+// n = number of nodes
+// Time = O(n^2) Use of the queue
+// Space = O(n) Creation of the queue
 
 console.log(treeMinValue(a)) // => -2
