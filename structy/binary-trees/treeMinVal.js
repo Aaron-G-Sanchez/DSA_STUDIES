@@ -51,33 +51,42 @@ c.right = f
 // Space = O(n) use of the call stack
 
 // MY SOLUTION: Iterative
-const treeMinValue = (root) => {
-  // Initialize current min val (curMinVal)
-  let curMinVal = null
-
-  // Create queue to hold nodes to visit
-  const queue = [root]
-
-  // Loop through queue while it has nodes
-  while (queue.length > 0) {
-    // Shift the current node from the queue
-    const current = queue.shift()
-
-    // Evaluate if node.val is less than curMinVal
-    // yes; set curMinVal to node.val
-    curMinVal = curMinVal ? Math.min(current.val, curMinVal) : current.val
-
-    // Check if current node has left/right children
-    // yes; push to the queue
-    if (current.left) queue.push(current.left)
-    if (current.right) queue.push(current.right)
-  }
-  // return the current min val
-  return curMinVal
-}
+//const treeMinValue = (root) => {
+//  // Initialize current min val (curMinVal)
+//  let curMinVal = null
+//
+//  // Create queue to hold nodes to visit
+//  const queue = [root]
+//
+//  // Loop through queue while it has nodes
+//  while (queue.length > 0) {
+//    // Shift the current node from the queue
+//    const current = queue.shift()
+//
+//    // Evaluate if node.val is less than curMinVal
+//    // yes; set curMinVal to node.val
+//    curMinVal = curMinVal ? Math.min(current.val, curMinVal) : current.val
+//
+//    // Check if current node has left/right children
+//    // yes; push to the queue
+//    if (current.left) queue.push(current.left)
+//    if (current.right) queue.push(current.right)
+//  }
+//  // return the current min val
+//  return curMinVal
+//}
 
 // n = number of nodes
 // Time = O(n^2) Use of the queue
 // Space = O(n) Creation of the queue
+
+const treeMinValue = (root) => {
+  if (!root) return Infinity
+
+  const leftMin = treeMinValue(root.left)
+  const rightMin = treeMinValue(root.right)
+
+  return Math.min(root.val, leftMin, rightMin)
+}
 
 console.log(treeMinValue(a)) // => -2
