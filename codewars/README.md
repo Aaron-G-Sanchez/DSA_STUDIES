@@ -8,6 +8,7 @@ A collection of codewars challenges done in javascript.
 | [Array.diff](./arrayDif.js)                                       | 6kyu       |
 | [Longest repetition](./longestRepetition.js)                      | 6kyu       |
 | [Does My Number Look Big In This](./doesMyNumberLookBigInThis.js) | 6kyu       |
+| [Bit Counting](./bitCounting.js)                                  | 6kyu       |
 
 | Interview practice                                |     |
 | ------------------------------------------------- | --- |
@@ -65,6 +66,13 @@ Your code must return true or false (not 'true' and 'false') depending upon whet
 This may be True and False in your language, e.g. PHP.
 
 Error checking for text strings or other invalid inputs is not required, only valid positive non-zero integers will be passed into the function.
+
+## [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4)
+
+Description:
+Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
+
+Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
 
 ## Longest Common Prefix
 
