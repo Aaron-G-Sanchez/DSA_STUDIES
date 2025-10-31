@@ -26,3 +26,5 @@
 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)                                                                 | 04/09/25       |
 | [2215. Find Difference in Two Arrays](https://leetcode.com/problems/invert-binary-tree/description/)                                                     | 04/10/25       |
 | [3. Length of Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | 05/12/25       |
+| [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)                                             | 10/30/25       |
+| [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                        | 10/31/25       |
